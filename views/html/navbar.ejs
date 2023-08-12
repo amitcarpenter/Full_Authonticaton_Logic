@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      overflow: hidden;
+    }
+    
+    .navbar li {
+      float: left;
+    }
+    
+    .navbar li a {
+      display: block;
+      color: #333;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .navbar li a:hover {
+      background-color: #ddd;
+    }
+    
+    .navbar li a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul class="navbar">
+      <li><a href="/admin/home" class="active">Home</a></li>
+      <li><a href="/admin/dashboard">Dashboard</a></li>
+      <li><a href="/admin/dashboard">Users</a></li>
+      <li><a href="/admin/logout">Logout</a></li>
+    </ul>
+  </nav>
+</body>
+</html>

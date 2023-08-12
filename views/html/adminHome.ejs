@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .img{
+        border-radius: 50%;
+    }
+</style>
+<body>
+    <%- include('navbar') %>
+    <div>
+        <h1>Welcome to Admin Dashboard</h1>
+
+
+        <table style="height: 50% ; width:50% ;">
+        
+<tr>
+    <td>
+        <img height="100px" width="100px" class="img" src="/userImages/<%= 
+        admin.image %> " alt="<%=admin.image %>">
+        </td>
+    </tr>
+    <tr>
+    <td><%=admin.name%></td>
+
+</tr>
+    <tr>
+    <td><%=admin.email%></td>
+
+</tr>
+
+        </table>
+
+
+
+    </div>
+</body>
+</html>
